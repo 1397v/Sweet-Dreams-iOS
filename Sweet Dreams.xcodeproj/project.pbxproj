@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F295DB4C1EE7EBF500559B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */; };
+		F295DB4E1EE7EBF500559B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB4D1EE7EBF500559B62 /* ViewController.swift */; };
+		F295DB511EE7EBF500559B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F295DB4F1EE7EBF500559B62 /* Main.storyboard */; };
+		F295DB531EE7EBF500559B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F295DB521EE7EBF500559B62 /* Assets.xcassets */; };
+		F295DB561EE7EBF500559B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F295DB541EE7EBF500559B62 /* LaunchScreen.storyboard */; };
+		F295DB611EE7EBF500559B62 /* Sweet_DreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB601EE7EBF500559B62 /* Sweet_DreamsTests.swift */; };
+		F295DB6C1EE7EBF500559B62 /* Sweet_DreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB6B1EE7EBF500559B62 /* Sweet_DreamsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F295DB5D1EE7EBF500559B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F295DB401EE7EBF500559B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F295DB471EE7EBF500559B62;
+			remoteInfo = "Sweet Dreams";
+		};
+		F295DB681EE7EBF500559B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F295DB401EE7EBF500559B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F295DB471EE7EBF500559B62;
+			remoteInfo = "Sweet Dreams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F295DB481EE7EBF500559B62 /* Sweet Dreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweet Dreams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F295DB4D1EE7EBF500559B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F295DB501EE7EBF500559B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F295DB521EE7EBF500559B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F295DB551EE7EBF500559B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F295DB571EE7EBF500559B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F295DB5C1EE7EBF500559B62 /* Sweet DreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweet DreamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F295DB601EE7EBF500559B62 /* Sweet_DreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweet_DreamsTests.swift; sourceTree = "<group>"; };
+		F295DB621EE7EBF500559B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F295DB671EE7EBF500559B62 /* Sweet DreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweet DreamsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F295DB6B1EE7EBF500559B62 /* Sweet_DreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweet_DreamsUITests.swift; sourceTree = "<group>"; };
+		F295DB6D1EE7EBF500559B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F295DB451EE7EBF500559B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB591EE7EBF500559B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB641EE7EBF500559B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F295DB3F1EE7EBF500559B62 = {
+			isa = PBXGroup;
+			children = (
+				F295DB4A1EE7EBF500559B62 /* Sweet Dreams */,
+				F295DB5F1EE7EBF500559B62 /* Sweet DreamsTests */,
+				F295DB6A1EE7EBF500559B62 /* Sweet DreamsUITests */,
+				F295DB491EE7EBF500559B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F295DB491EE7EBF500559B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F295DB481EE7EBF500559B62 /* Sweet Dreams.app */,
+				F295DB5C1EE7EBF500559B62 /* Sweet DreamsTests.xctest */,
+				F295DB671EE7EBF500559B62 /* Sweet DreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F295DB4A1EE7EBF500559B62 /* Sweet Dreams */ = {
+			isa = PBXGroup;
+			children = (
+				F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */,
+				F295DB4D1EE7EBF500559B62 /* ViewController.swift */,
+				F295DB4F1EE7EBF500559B62 /* Main.storyboard */,
+				F295DB521EE7EBF500559B62 /* Assets.xcassets */,
+				F295DB541EE7EBF500559B62 /* LaunchScreen.storyboard */,
+				F295DB571EE7EBF500559B62 /* Info.plist */,
+			);
+			path = "Sweet Dreams";
+			sourceTree = "<group>";
+		};
+		F295DB5F1EE7EBF500559B62 /* Sweet DreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F295DB601EE7EBF500559B62 /* Sweet_DreamsTests.swift */,
+				F295DB621EE7EBF500559B62 /* Info.plist */,
+			);
+			path = "Sweet DreamsTests";
+			sourceTree = "<group>";
+		};
+		F295DB6A1EE7EBF500559B62 /* Sweet DreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F295DB6B1EE7EBF500559B62 /* Sweet_DreamsUITests.swift */,
+				F295DB6D1EE7EBF500559B62 /* Info.plist */,
+			);
+			path = "Sweet DreamsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F295DB471EE7EBF500559B62 /* Sweet Dreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F295DB701EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet Dreams" */;
+			buildPhases = (
+				F295DB441EE7EBF500559B62 /* Sources */,
+				F295DB451EE7EBF500559B62 /* Frameworks */,
+				F295DB461EE7EBF500559B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sweet Dreams";
+			productName = "Sweet Dreams";
+			productReference = F295DB481EE7EBF500559B62 /* Sweet Dreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F295DB5B1EE7EBF500559B62 /* Sweet DreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F295DB731EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsTests" */;
+			buildPhases = (
+				F295DB581EE7EBF500559B62 /* Sources */,
+				F295DB591EE7EBF500559B62 /* Frameworks */,
+				F295DB5A1EE7EBF500559B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F295DB5E1EE7EBF500559B62 /* PBXTargetDependency */,
+			);
+			name = "Sweet DreamsTests";
+			productName = "Sweet DreamsTests";
+			productReference = F295DB5C1EE7EBF500559B62 /* Sweet DreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F295DB661EE7EBF500559B62 /* Sweet DreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F295DB761EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsUITests" */;
+			buildPhases = (
+				F295DB631EE7EBF500559B62 /* Sources */,
+				F295DB641EE7EBF500559B62 /* Frameworks */,
+				F295DB651EE7EBF500559B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F295DB691EE7EBF500559B62 /* PBXTargetDependency */,
+			);
+			name = "Sweet DreamsUITests";
+			productName = "Sweet DreamsUITests";
+			productReference = F295DB671EE7EBF500559B62 /* Sweet DreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F295DB401EE7EBF500559B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alberto Garcia Ramos";
+				TargetAttributes = {
+					F295DB471EE7EBF500559B62 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UHHU5Q3588;
+						ProvisioningStyle = Automatic;
+					};
+					F295DB5B1EE7EBF500559B62 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UHHU5Q3588;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F295DB471EE7EBF500559B62;
+					};
+					F295DB661EE7EBF500559B62 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UHHU5Q3588;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F295DB471EE7EBF500559B62;
+					};
+				};
+			};
+			buildConfigurationList = F295DB431EE7EBF500559B62 /* Build configuration list for PBXProject "Sweet Dreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F295DB3F1EE7EBF500559B62;
+			productRefGroup = F295DB491EE7EBF500559B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F295DB471EE7EBF500559B62 /* Sweet Dreams */,
+				F295DB5B1EE7EBF500559B62 /* Sweet DreamsTests */,
+				F295DB661EE7EBF500559B62 /* Sweet DreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F295DB461EE7EBF500559B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F295DB561EE7EBF500559B62 /* LaunchScreen.storyboard in Resources */,
+				F295DB531EE7EBF500559B62 /* Assets.xcassets in Resources */,
+				F295DB511EE7EBF500559B62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB5A1EE7EBF500559B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB651EE7EBF500559B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F295DB441EE7EBF500559B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F295DB4E1EE7EBF500559B62 /* ViewController.swift in Sources */,
+				F295DB4C1EE7EBF500559B62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB581EE7EBF500559B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F295DB611EE7EBF500559B62 /* Sweet_DreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DB631EE7EBF500559B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F295DB6C1EE7EBF500559B62 /* Sweet_DreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F295DB5E1EE7EBF500559B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F295DB471EE7EBF500559B62 /* Sweet Dreams */;
+			targetProxy = F295DB5D1EE7EBF500559B62 /* PBXContainerItemProxy */;
+		};
+		F295DB691EE7EBF500559B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F295DB471EE7EBF500559B62 /* Sweet Dreams */;
+			targetProxy = F295DB681EE7EBF500559B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F295DB4F1EE7EBF500559B62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F295DB501EE7EBF500559B62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F295DB541EE7EBF500559B62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F295DB551EE7EBF500559B62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F295DB6E1EE7EBF500559B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F295DB6F1EE7EBF500559B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F295DB711EE7EBF500559B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet Dreams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-Dreams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F295DB721EE7EBF500559B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet Dreams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-Dreams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F295DB741EE7EBF500559B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet DreamsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-DreamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweet Dreams.app/Sweet Dreams";
+			};
+			name = Debug;
+		};
+		F295DB751EE7EBF500559B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet DreamsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-DreamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweet Dreams.app/Sweet Dreams";
+			};
+			name = Release;
+		};
+		F295DB771EE7EBF500559B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet DreamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-DreamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sweet Dreams";
+			};
+			name = Debug;
+		};
+		F295DB781EE7EBF500559B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UHHU5Q3588;
+				INFOPLIST_FILE = "Sweet DreamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.usal.albertogr.Sweet-DreamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sweet Dreams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F295DB431EE7EBF500559B62 /* Build configuration list for PBXProject "Sweet Dreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F295DB6E1EE7EBF500559B62 /* Debug */,
+				F295DB6F1EE7EBF500559B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F295DB701EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet Dreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F295DB711EE7EBF500559B62 /* Debug */,
+				F295DB721EE7EBF500559B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F295DB731EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F295DB741EE7EBF500559B62 /* Debug */,
+				F295DB751EE7EBF500559B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F295DB761EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F295DB771EE7EBF500559B62 /* Debug */,
+				F295DB781EE7EBF500559B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F295DB401EE7EBF500559B62 /* Project object */;
+}
