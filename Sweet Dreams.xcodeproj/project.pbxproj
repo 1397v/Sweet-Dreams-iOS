@@ -7,13 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25C731E1EE7F85B0076FCC3 /* Message_select_dream.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C731D1EE7F85B0076FCC3 /* Message_select_dream.png */; };
+		F25C73201EE7F9EC0076FCC3 /* Message_dreaming.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C731F1EE7F9EC0076FCC3 /* Message_dreaming.png */; };
+		F25C73231EE7FC320076FCC3 /* Sensors_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73211EE7FC320076FCC3 /* Sensors_cell.png */; };
+		F25C73241EE7FC320076FCC3 /* Storing_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73221EE7FC320076FCC3 /* Storing_cell.png */; };
+		F25C73271EE7FE3C0076FCC3 /* Cloud_storing_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73251EE7FE3C0076FCC3 /* Cloud_storing_cell.png */; };
+		F25C73281EE7FE3C0076FCC3 /* Message_storing.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73261EE7FE3C0076FCC3 /* Message_storing.png */; };
+		F25C732A1EE802A60076FCC3 /* SensorsInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73291EE802A60076FCC3 /* SensorsInit.swift */; };
+		F25C732C1EE802C90076FCC3 /* DreamSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C732B1EE802C90076FCC3 /* DreamSelect.swift */; };
+		F25C732E1EE802E90076FCC3 /* Dreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C732D1EE802E90076FCC3 /* Dreaming.swift */; };
+		F25C73301EE803010076FCC3 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C732F1EE803010076FCC3 /* Library.swift */; };
+		F25C73361EE806510076FCC3 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73351EE806510076FCC3 /* TopicCell.swift */; };
+		F25C73381EE806AB0076FCC3 /* DreamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73371EE806AB0076FCC3 /* DreamCell.swift */; };
+		F25C733A1EE811270076FCC3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73391EE811270076FCC3 /* TabBarController.swift */; };
+		F25C733C1EE8186E0076FCC3 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C733B1EE8186E0076FCC3 /* Dream.swift */; };
+		F25C733E1EE8399B0076FCC3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C733D1EE8399B0076FCC3 /* Settings.swift */; };
+		F25C73401EE83A270076FCC3 /* SensorsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C733F1EE83A270076FCC3 /* SensorsSettings.swift */; };
+		F25C73421EE83B600076FCC3 /* StoringSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73411EE83B600076FCC3 /* StoringSettings.swift */; };
+		F25C73461EE842020076FCC3 /* dream0.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73431EE842020076FCC3 /* dream0.png */; };
+		F25C73471EE842020076FCC3 /* dream1.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73441EE842020076FCC3 /* dream1.png */; };
+		F25C73481EE842020076FCC3 /* dream2.png in Resources */ = {isa = PBXBuildFile; fileRef = F25C73451EE842020076FCC3 /* dream2.png */; };
+		F25C734A1EE842F80076FCC3 /* DreamElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C73491EE842F80076FCC3 /* DreamElement.swift */; };
 		F295DB4C1EE7EBF500559B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */; };
-		F295DB4E1EE7EBF500559B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB4D1EE7EBF500559B62 /* ViewController.swift */; };
 		F295DB511EE7EBF500559B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F295DB4F1EE7EBF500559B62 /* Main.storyboard */; };
 		F295DB531EE7EBF500559B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F295DB521EE7EBF500559B62 /* Assets.xcassets */; };
 		F295DB561EE7EBF500559B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F295DB541EE7EBF500559B62 /* LaunchScreen.storyboard */; };
 		F295DB611EE7EBF500559B62 /* Sweet_DreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB601EE7EBF500559B62 /* Sweet_DreamsTests.swift */; };
 		F295DB6C1EE7EBF500559B62 /* Sweet_DreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295DB6B1EE7EBF500559B62 /* Sweet_DreamsUITests.swift */; };
+		F295DB801EE7EF3700559B62 /* App_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7A1EE7EF3700559B62 /* App_Icon.png */; };
+		F295DB811EE7EF3700559B62 /* Icon_Play.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7B1EE7EF3700559B62 /* Icon_Play.png */; };
+		F295DB821EE7EF3700559B62 /* Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7C1EE7EF3700559B62 /* Oval.png */; };
+		F295DB831EE7EF3700559B62 /* Play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7D1EE7EF3700559B62 /* Play_button.png */; };
+		F295DB841EE7EF3700559B62 /* Sensors.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7E1EE7EF3700559B62 /* Sensors.png */; };
+		F295DB851EE7EF3700559B62 /* Sweet_Dreams.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB7F1EE7EF3700559B62 /* Sweet_Dreams.png */; };
+		F295DB871EE7EFE100559B62 /* Start_Message.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB861EE7EFE100559B62 /* Start_Message.png */; };
+		F295DB8E1EE7F11400559B62 /* Dream_select.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB881EE7F11400559B62 /* Dream_select.png */; };
+		F295DB8F1EE7F11400559B62 /* Dream.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB891EE7F11400559B62 /* Dream.png */; };
+		F295DB901EE7F11400559B62 /* Library_select.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB8A1EE7F11400559B62 /* Library_select.png */; };
+		F295DB911EE7F11400559B62 /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB8B1EE7F11400559B62 /* Library.png */; };
+		F295DB921EE7F11400559B62 /* Settings_select.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB8C1EE7F11400559B62 /* Settings_select.png */; };
+		F295DB931EE7F11400559B62 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F295DB8D1EE7F11400559B62 /* Settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +67,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F25C731D1EE7F85B0076FCC3 /* Message_select_dream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message_select_dream.png; sourceTree = "<group>"; };
+		F25C731F1EE7F9EC0076FCC3 /* Message_dreaming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message_dreaming.png; sourceTree = "<group>"; };
+		F25C73211EE7FC320076FCC3 /* Sensors_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sensors_cell.png; sourceTree = "<group>"; };
+		F25C73221EE7FC320076FCC3 /* Storing_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Storing_cell.png; sourceTree = "<group>"; };
+		F25C73251EE7FE3C0076FCC3 /* Cloud_storing_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud_storing_cell.png; sourceTree = "<group>"; };
+		F25C73261EE7FE3C0076FCC3 /* Message_storing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message_storing.png; sourceTree = "<group>"; };
+		F25C73291EE802A60076FCC3 /* SensorsInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsInit.swift; sourceTree = "<group>"; };
+		F25C732B1EE802C90076FCC3 /* DreamSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamSelect.swift; sourceTree = "<group>"; };
+		F25C732D1EE802E90076FCC3 /* Dreaming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dreaming.swift; sourceTree = "<group>"; };
+		F25C732F1EE803010076FCC3 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F25C73351EE806510076FCC3 /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		F25C73371EE806AB0076FCC3 /* DreamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamCell.swift; sourceTree = "<group>"; };
+		F25C73391EE811270076FCC3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F25C733B1EE8186E0076FCC3 /* Dream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		F25C733D1EE8399B0076FCC3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F25C733F1EE83A270076FCC3 /* SensorsSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsSettings.swift; sourceTree = "<group>"; };
+		F25C73411EE83B600076FCC3 /* StoringSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoringSettings.swift; sourceTree = "<group>"; };
+		F25C73431EE842020076FCC3 /* dream0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dream0.png; sourceTree = "<group>"; };
+		F25C73441EE842020076FCC3 /* dream1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dream1.png; sourceTree = "<group>"; };
+		F25C73451EE842020076FCC3 /* dream2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dream2.png; sourceTree = "<group>"; };
+		F25C73491EE842F80076FCC3 /* DreamElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamElement.swift; sourceTree = "<group>"; };
 		F295DB481EE7EBF500559B62 /* Sweet Dreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweet Dreams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F295DB4D1EE7EBF500559B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F295DB501EE7EBF500559B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F295DB521EE7EBF500559B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F295DB551EE7EBF500559B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +100,19 @@
 		F295DB671EE7EBF500559B62 /* Sweet DreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweet DreamsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F295DB6B1EE7EBF500559B62 /* Sweet_DreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweet_DreamsUITests.swift; sourceTree = "<group>"; };
 		F295DB6D1EE7EBF500559B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F295DB7A1EE7EF3700559B62 /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon.png; sourceTree = "<group>"; };
+		F295DB7B1EE7EF3700559B62 /* Icon_Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Play.png; sourceTree = "<group>"; };
+		F295DB7C1EE7EF3700559B62 /* Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oval.png; sourceTree = "<group>"; };
+		F295DB7D1EE7EF3700559B62 /* Play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play_button.png; sourceTree = "<group>"; };
+		F295DB7E1EE7EF3700559B62 /* Sensors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sensors.png; sourceTree = "<group>"; };
+		F295DB7F1EE7EF3700559B62 /* Sweet_Dreams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweet_Dreams.png; sourceTree = "<group>"; };
+		F295DB861EE7EFE100559B62 /* Start_Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start_Message.png; sourceTree = "<group>"; };
+		F295DB881EE7F11400559B62 /* Dream_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dream_select.png; sourceTree = "<group>"; };
+		F295DB891EE7F11400559B62 /* Dream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dream.png; sourceTree = "<group>"; };
+		F295DB8A1EE7F11400559B62 /* Library_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library_select.png; sourceTree = "<group>"; };
+		F295DB8B1EE7F11400559B62 /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		F295DB8C1EE7F11400559B62 /* Settings_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_select.png; sourceTree = "<group>"; };
+		F295DB8D1EE7F11400559B62 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +147,7 @@
 				F295DB5F1EE7EBF500559B62 /* Sweet DreamsTests */,
 				F295DB6A1EE7EBF500559B62 /* Sweet DreamsUITests */,
 				F295DB491EE7EBF500559B62 /* Products */,
+				F295DB791EE7EF3700559B62 /* UImages */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +165,22 @@
 			isa = PBXGroup;
 			children = (
 				F295DB4B1EE7EBF500559B62 /* AppDelegate.swift */,
-				F295DB4D1EE7EBF500559B62 /* ViewController.swift */,
 				F295DB4F1EE7EBF500559B62 /* Main.storyboard */,
 				F295DB521EE7EBF500559B62 /* Assets.xcassets */,
 				F295DB541EE7EBF500559B62 /* LaunchScreen.storyboard */,
 				F295DB571EE7EBF500559B62 /* Info.plist */,
+				F25C73291EE802A60076FCC3 /* SensorsInit.swift */,
+				F25C732B1EE802C90076FCC3 /* DreamSelect.swift */,
+				F25C732D1EE802E90076FCC3 /* Dreaming.swift */,
+				F25C732F1EE803010076FCC3 /* Library.swift */,
+				F25C73351EE806510076FCC3 /* TopicCell.swift */,
+				F25C73371EE806AB0076FCC3 /* DreamCell.swift */,
+				F25C73391EE811270076FCC3 /* TabBarController.swift */,
+				F25C733B1EE8186E0076FCC3 /* Dream.swift */,
+				F25C733D1EE8399B0076FCC3 /* Settings.swift */,
+				F25C733F1EE83A270076FCC3 /* SensorsSettings.swift */,
+				F25C73411EE83B600076FCC3 /* StoringSettings.swift */,
+				F25C73491EE842F80076FCC3 /* DreamElement.swift */,
 			);
 			path = "Sweet Dreams";
 			sourceTree = "<group>";
@@ -123,6 +201,35 @@
 				F295DB6D1EE7EBF500559B62 /* Info.plist */,
 			);
 			path = "Sweet DreamsUITests";
+			sourceTree = "<group>";
+		};
+		F295DB791EE7EF3700559B62 /* UImages */ = {
+			isa = PBXGroup;
+			children = (
+				F295DB7A1EE7EF3700559B62 /* App_Icon.png */,
+				F295DB7B1EE7EF3700559B62 /* Icon_Play.png */,
+				F295DB7C1EE7EF3700559B62 /* Oval.png */,
+				F295DB7D1EE7EF3700559B62 /* Play_button.png */,
+				F295DB7E1EE7EF3700559B62 /* Sensors.png */,
+				F295DB7F1EE7EF3700559B62 /* Sweet_Dreams.png */,
+				F295DB861EE7EFE100559B62 /* Start_Message.png */,
+				F295DB881EE7F11400559B62 /* Dream_select.png */,
+				F295DB891EE7F11400559B62 /* Dream.png */,
+				F295DB8A1EE7F11400559B62 /* Library_select.png */,
+				F295DB8B1EE7F11400559B62 /* Library.png */,
+				F295DB8C1EE7F11400559B62 /* Settings_select.png */,
+				F295DB8D1EE7F11400559B62 /* Settings.png */,
+				F25C731D1EE7F85B0076FCC3 /* Message_select_dream.png */,
+				F25C731F1EE7F9EC0076FCC3 /* Message_dreaming.png */,
+				F25C73211EE7FC320076FCC3 /* Sensors_cell.png */,
+				F25C73221EE7FC320076FCC3 /* Storing_cell.png */,
+				F25C73251EE7FE3C0076FCC3 /* Cloud_storing_cell.png */,
+				F25C73261EE7FE3C0076FCC3 /* Message_storing.png */,
+				F25C73431EE842020076FCC3 /* dream0.png */,
+				F25C73441EE842020076FCC3 /* dream1.png */,
+				F25C73451EE842020076FCC3 /* dream2.png */,
+			);
+			path = UImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +342,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F295DB931EE7F11400559B62 /* Settings.png in Resources */,
+				F295DB801EE7EF3700559B62 /* App_Icon.png in Resources */,
+				F295DB831EE7EF3700559B62 /* Play_button.png in Resources */,
+				F295DB8E1EE7F11400559B62 /* Dream_select.png in Resources */,
+				F295DB851EE7EF3700559B62 /* Sweet_Dreams.png in Resources */,
+				F25C73231EE7FC320076FCC3 /* Sensors_cell.png in Resources */,
+				F295DB901EE7F11400559B62 /* Library_select.png in Resources */,
+				F25C73471EE842020076FCC3 /* dream1.png in Resources */,
+				F25C73461EE842020076FCC3 /* dream0.png in Resources */,
 				F295DB561EE7EBF500559B62 /* LaunchScreen.storyboard in Resources */,
+				F295DB8F1EE7F11400559B62 /* Dream.png in Resources */,
+				F25C73481EE842020076FCC3 /* dream2.png in Resources */,
+				F25C73201EE7F9EC0076FCC3 /* Message_dreaming.png in Resources */,
+				F25C73271EE7FE3C0076FCC3 /* Cloud_storing_cell.png in Resources */,
+				F295DB911EE7F11400559B62 /* Library.png in Resources */,
+				F25C73281EE7FE3C0076FCC3 /* Message_storing.png in Resources */,
+				F295DB871EE7EFE100559B62 /* Start_Message.png in Resources */,
+				F25C73241EE7FC320076FCC3 /* Storing_cell.png in Resources */,
+				F295DB841EE7EF3700559B62 /* Sensors.png in Resources */,
+				F25C731E1EE7F85B0076FCC3 /* Message_select_dream.png in Resources */,
+				F295DB921EE7F11400559B62 /* Settings_select.png in Resources */,
+				F295DB811EE7EF3700559B62 /* Icon_Play.png in Resources */,
+				F295DB821EE7EF3700559B62 /* Oval.png in Resources */,
 				F295DB531EE7EBF500559B62 /* Assets.xcassets in Resources */,
 				F295DB511EE7EBF500559B62 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +391,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F295DB4E1EE7EBF500559B62 /* ViewController.swift in Sources */,
+				F25C73401EE83A270076FCC3 /* SensorsSettings.swift in Sources */,
+				F25C73381EE806AB0076FCC3 /* DreamCell.swift in Sources */,
+				F25C733A1EE811270076FCC3 /* TabBarController.swift in Sources */,
+				F25C732E1EE802E90076FCC3 /* Dreaming.swift in Sources */,
+				F25C732A1EE802A60076FCC3 /* SensorsInit.swift in Sources */,
+				F25C733E1EE8399B0076FCC3 /* Settings.swift in Sources */,
+				F25C732C1EE802C90076FCC3 /* DreamSelect.swift in Sources */,
+				F25C73421EE83B600076FCC3 /* StoringSettings.swift in Sources */,
+				F25C734A1EE842F80076FCC3 /* DreamElement.swift in Sources */,
 				F295DB4C1EE7EBF500559B62 /* AppDelegate.swift in Sources */,
+				F25C73361EE806510076FCC3 /* TopicCell.swift in Sources */,
+				F25C73301EE803010076FCC3 /* Library.swift in Sources */,
+				F25C733C1EE8186E0076FCC3 /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +656,7 @@
 				F295DB721EE7EBF500559B62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F295DB731EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +665,7 @@
 				F295DB751EE7EBF500559B62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F295DB761EE7EBF500559B62 /* Build configuration list for PBXNativeTarget "Sweet DreamsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +674,7 @@
 				F295DB781EE7EBF500559B62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

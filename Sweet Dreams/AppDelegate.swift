@@ -11,6 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var dreams:[DreamElement] = []
+    
     var window: UIWindow?
 
 

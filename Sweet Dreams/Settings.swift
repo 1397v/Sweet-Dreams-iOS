@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Settings.swift
 //  Sweet Dreams
 //
 //  Created by Alberto Garcia Ramos on 07/06/2017.
@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class Settings: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func unwindFromSettingsDetail (segue: UIStoryboardSegue) -> Void {
+        
+    }
 }
-
